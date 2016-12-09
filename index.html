@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>eliza</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        main {
+            padding: 2em;
+        }
+        input {
+            font-size: 1.4em;
+            padding: 0.5em;
+            margin: 0 auto;
+            display: block;
+            border: 1px solid #aaa;
+        }
+        ul, li {
+            list-style-type: none;
+        }
+        #responses {
+            max-width: 600px;
+            margin: 2em auto;
+            font-size: 1.2em;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+        <input id="chat" type="text" placeholder="tell eliza something" autofocus>
+        <ul id="responses"></ul>
+    </main>
+    <script src="eliza.js"></script>
+  </body>
+</html>

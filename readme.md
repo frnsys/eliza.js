@@ -1,0 +1,1 @@
+javascript port of [this python implementation of Eliza](http://www.jezuk.co.uk/cgi-bin/view/software/eliza)
